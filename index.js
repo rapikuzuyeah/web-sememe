@@ -10,11 +10,6 @@ const owner = 'YOUR USERNAM'; // GitHub username
 const repo = 'YOUR REPO'; // Repository name
 const branch = 'main';
 
-// Pastikan githubToken telah diatur
-if (!githubToken || githubToken === "YOUR_GITHUB_TOKEN") { // Ganti "YOUR_GITHUB_TOKEN" jika Anda menggunakan placeholder
-    console.error('ERROR: GitHub Token belum diatur. Harap setel variabel githubToken.');
-    process.exit(1); // Hentikan aplikasi jika token tidak ada
-}
 
 app.use(fileUpload());
 app.use(express.urlencoded({ extended: true })); // Penting untuk menguraikan body dari form HTML
