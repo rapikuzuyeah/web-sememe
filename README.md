@@ -1,4 +1,4 @@
-# web-sememe
+# Web create meme
 ---------
 # *EN*
 ### 📃 T&C
